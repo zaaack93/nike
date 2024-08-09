@@ -1,11 +1,14 @@
-function App() {
-
+const App = () => {
   return (
-    <>
-      <h1 className="text-3xl underline font-light text-blue-600">
-        Hello world!
-      </h1>
-    </>
+    <main className="relative">
+      Nav
+      <section className="xl:padding-1 wide:padding-r padding-b">
+        Hero
+      </section>
+      <section className="padding">
+        PopularProducts
+      </section>
+    </main>
   )
 }
 
