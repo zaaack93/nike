@@ -1,4 +1,5 @@
 import Nav from "./components/Nav"
+import Services from "./components/Services"
 import Hero from "./sections/Hero"
 import PopularProducts from "./sections/PopularProducts"
 import SuperQuality from "./sections/SuperQuality"
@@ -17,6 +18,9 @@ const App = () => {
 
       <section className='padding'>
        <SuperQuality />
+      </section>
+      <section className='padding'>
+       <Services />
       </section>
     </main>
   )
