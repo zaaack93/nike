@@ -1,7 +1,7 @@
 import Nav from "./components/Nav"
-import Services from "./components/Services"
 import Hero from "./sections/Hero"
 import PopularProducts from "./sections/PopularProducts"
+import Services from "./sections/Services"
 import SuperQuality from "./sections/SuperQuality"
 
 const App = () => {
